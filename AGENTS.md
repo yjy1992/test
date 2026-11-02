@@ -21,4 +21,4 @@
 
 ## Pull requests
 - The PR body must end with `Closes #<issue-number>` for the issue it implements.
-- Do not merge your own pull request; a person merges it.
+- Never merge a pull request directly. Enable auto-merge only as the Delivery requirements allow; GitHub merges it once the required approval and checks cover the head commit.
