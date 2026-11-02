@@ -18,3 +18,7 @@
 ## Definition of done
 - `npm test` passes.
 - The PR description says what changed and how it was verified.
+
+## Pull requests
+- The PR body must end with `Closes #<issue-number>` for the issue it implements.
+- Do not merge your own pull request; a person merges it.
