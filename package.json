@@ -7,6 +7,9 @@
   "scripts": {
     "test": "node --test"
   },
+  "bin": {
+    "slug": "bin/slug.js"
+  },
   "engines": {
     "node": ">=22"
   }
