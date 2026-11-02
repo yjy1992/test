@@ -1,0 +1,13 @@
+{
+  "name": "slug-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Turn text into URL slugs.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
