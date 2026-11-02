@@ -2,6 +2,11 @@
 
 Turn text into URL slugs.
 
+## Requirements
+
+- Node.js 22 or later
+- No runtime dependencies
+
 ## Usage
 
 `slug-cli` is a Node.js 22 command-line tool with no dependencies and no install
