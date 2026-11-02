@@ -11,6 +11,14 @@ test('trims and collapses whitespace', () => {
   assert.equal(slugify('  A  B  '), 'a-b');
 });
 
+test('collapses a tab between words', () => {
+  assert.equal(slugify('a\tb'), 'a-b');
+});
+
+test('collapses a newline between words', () => {
+  assert.equal(slugify('a\nb'), 'a-b');
+});
+
 test('strips diacritics', () => {
   assert.equal(slugify('Café déjà vu!'), 'cafe-deja-vu');
 });
