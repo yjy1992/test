@@ -34,6 +34,9 @@ node bin/slug.js "---"                  # (empty slug)
 Without arguments, the CLI prints `Usage: slug <text...>` to stderr and exits
 with status 1.
 
+`node bin/slug.js --version` prints the CLI version from `package.json`,
+currently `0.1.0`.
+
 ## Tests
 
 Run the test suite with Node.js 22 or later:
